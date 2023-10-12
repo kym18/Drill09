@@ -114,6 +114,7 @@ class Run:
     def do(boy):
         boy.frame = (boy.frame + 1) % 8
         boy.x += boy.dir * 5
+        boy.y = 90
 
     @staticmethod
     def draw(boy):
